@@ -1,0 +1,36 @@
+---
+title: "A3"
+output: html_document
+date: '2022-05-24'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(latinx_jp_map)
+plot(latinx_and_Black)
+plot(latinx_jail_pop)
+
+```
+Introduction I am choosing to look at the latinx jail population because I myself am Hispanic so these numbers are interesting to me and make me want to learn more about Latino incarceration across the country. 
+
+The data does not take into account the reasons for why certain ethnic groups may have higher Incarceration rates than others. Ethnic groups such as Hispanic come from low income households which leads people to find different ways to put food on the table that may not be legal. The data does not reflect the troubles which makes it easy to put people in a box and think that Hispanics are dangerous because they make up the highest number of latinx jail population in CA 
+
+I chose to include this map because it provides a visualization of my variable across the country
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
