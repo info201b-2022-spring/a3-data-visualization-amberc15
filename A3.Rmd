@@ -5,9 +5,11 @@ date: '2022-05-24'
 ---
 
 ```{r setup, include=FALSE}
+
 source("a3analysis.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 
 
 
@@ -16,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
+
 plot(country_map)
 plot(black_latinx)
 plot(latinx_country)
@@ -27,10 +30,11 @@ Introduction I am choosing to look at the latinx jail population because I mysel
 The data does not take into account the reasons for why certain ethnic groups may have higher Incarceration rates than others. Ethnic groups such as Hispanic come from low income households which leads people to find different ways to put food on the table that may not be legal. The data does not reflect the troubles which makes it easy to put people in a box and think that Hispanics are dangerous because they make up the highest number of latinx jail population in CA 
 
 I chose to include this map because it provides a visualization of my variable across the country
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
 
 California had the highest Latinx Jail Population
 Yakima County was the county with the most latinx jail population in 2018
 In 2018, Yakima County had a latinx jail populatioin of 443
 Over the course of the years, my variable was highest in Callifornia
 The latinx jail pop in Autauga county in the year 2000 was 0.33
+
